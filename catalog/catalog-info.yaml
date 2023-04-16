@@ -10,6 +10,7 @@ metadata:
   - web
   - tanzu
   annotations:
+    'backstage.io/techdocs-ref': dir:../.
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=dallecool
 spec:
   type: service
